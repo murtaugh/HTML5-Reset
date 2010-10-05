@@ -1,0 +1,140 @@
+/*-  BASE STYLES
+----------------------------------------------------------------------*/
+
+/*- self-clearing floats ----------*/
+
+article ul.screenshots:after,
+.mod:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*- fluid images and objects ----------*/
+
+img,
+object,
+embed {max-width: 100%;}
+
+
+/*- optional vanity styles ----------*/
+
+html {cursor: default; height: 100%;}
+
+::selection {background: #c80000;}
+::-moz-selection {background: #c80000;}
+
+img::selection {background: transparent;}
+img::-moz-selection {background: transparent;}
+
+@media only screen and (max-device-width: 480px) {
+
+	html {-webkit-text-size-adjust: none;}
+	a {-webkit-tap-highlight-color: rgba(200,0,0,0.4);}
+
+}
+
+
+/*- LET'S GET STARTED!
+----------------------------------------------------------------------*/
+
+body {
+	background: fixed -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(0,0,100)), color-stop(0.62, rgb(0,0,51)));
+	background-color: #003;
+	color: #fff;
+	font: normal 16px/22px 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	margin: 60px 0 36px;
+	padding: 0;
+}
+
+abbr {
+	cursor: help;
+}
+
+input.text,
+textarea {
+	border: 1px solid #7C7C7C;
+	border-color: #7C7C7C #7C7C7C #C3C3C3 #C3C3C3;
+}
+
+time {padding-right: 4px; font-size: 12px;}
+	time:after {content: ":";}
+
+code {padding: 0 3px; font-size: 14px; background: #494c78;}
+
+a {position: relative; color: #fff; -webkit-transition: all 0.3s ease-in;}
+a:active {position: relative; top: 1px;}
+a:hover {color: yellow; -webkit-transition: all 0.3s ease-in;}
+
+a#uservoice-feedback-tab {-webkit-transition: none;}
+
+div.wrapper {width: 75%; min-width: 780px; margin: 0 auto; text-shadow: #111 1px 1px 1px;}
+
+h1 {width: 224px; margin: 0 0 18px; font: normal 51px/40px "aurea-ultra-1", "aurea-ultra-2", georgia, times, serif;}
+	h1 strong {display: block; font-size: 56px;}
+	
+	h1 a {text-decoration: none;}
+
+nav {margin: 0 0 30px;}
+
+	nav ol li {display: inline; padding-right: 12px;}
+		nav ol li:last-child {padding-right: 0;}
+		
+		nav ol li a {text-decoration: none;}
+		nav ol li a:before {content: "\2605\0020";}
+		
+
+article {margin: 0 auto 30px;}
+
+	article h1 {width: auto; margin-bottom: 12px; font-size: 38px; line-height: 38px;}
+
+	article h2 {margin-bottom: 12px; font: normal 24px/24px "aurea-ultra-1","aurea-ultra-2", georgia, times, serif;}
+	
+	article p {margin-bottom: 18px;}
+	
+	article ul {margin: 0 0 18px 24px;}
+	
+	article ul.links {margin: 18px 0;}
+	
+		article ul.links li {margin: 0 0 6px 24px;}
+		article ul.links li:before {content: "\2605\0020";}
+		article ul.links li.noStar {margin-left: 44px; font-size: 14px; font-style: italic;}
+		article ul.links li.noStar:before {content: "";}
+
+	article ul.screenshots {width: 100%; margin: 6px 0 18px;}
+		article ul.screenshots li {float: left; margin-right: 12px;}
+			article ul.screenshots li:last-child {margin-right: 0;}
+			
+			article ul.screenshots li a {display: block;}
+			article ul.screenshots li img {display: block; -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px;}
+
+	article ul.download {margin: 18px 0 30px;}
+		article ul.download li {margin-bottom: 12px;}
+		
+		article ul.download li a {display: inline-block; padding: 12px 18px 12px 44px; text-decoration: none; background: rgba(102,102,153,.8) url(../img/down-trans.png) 12px 12px no-repeat; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; -webkit-box-shadow: 1px 1px 12px #000; -moz-box-shadow: 1px 1px 9px #000; box-shadow: 1px 1px 9px #000;}
+			article ul.download li a:hover {background-color: rgba(102,102,153,1); -webkit-transition: all 0.3s ease-in;}
+			article ul.download li a:active {position: relative; top: 2px;}
+
+div#overlay {display: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(0,0,51,.8); cursor: pointer;}
+div#inner {width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center;}
+
+span.twitterInfo {display: none; position: absolute; padding: 3px 9px 3px 6px; font-size: 12px; font-family: "aurea-ultra-1","aurea-ultra-2", georgia, times, serif; text-shadow: none; line-height: 12px; color: #222; background: #c0d6e2; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px;}
+	span.twitterInfo a {color: #000; text-decoration: none; text-shadow: none;}
+		span.twitterInfo a:hover {text-decoration: underline;}
+
+footer {position: relative; margin: 60px 0 0; padding: 0 0 20px; font-size: 12px;}
+
+	footer img {width: 32px; height: 28px; margin-right: 3px; margin-top: -2px; opacity: .9; -webkit-transition: all 0.3s ease-in; vertical-align: middle;}
+	
+	footer img:hover {-webkit-transform: rotate(-10deg) scale(1.8); opacity: 1; -webkit-transition: all 0.3s;}
+
+
+/* Opera classes (yes, got lazy) */
+a{-o-transition:all 0.3s ease-in;} 
+a:hover{-o-transition:all 0.3s ease-in;} 
+a#uservoice-feedback-tab{-o-transition:none;} 
+article ul.download li a:hover{-o-transition:all 0.3s ease-in;} 
+footer img{-o-transition:all 0.3s ease-in;} 
+footer img:hover{-o-transform:rotate(-10deg) scale(1.8);-o-transition:all 0.3s;}
