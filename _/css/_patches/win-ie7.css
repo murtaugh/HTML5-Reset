@@ -1,4 +1,0 @@
-/*- SMARTER IMAGE SCALING (consider removing this if you expect to scale a large number of images)
-		see: http://beep.fm/x/7s
-----------------------------------------------------------------------*/
-img {-ms-interpolation-mode: bicubic;}
