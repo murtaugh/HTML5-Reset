@@ -1,5 +1,0 @@
-/*-  PREVENT BACKGROUND IMAGE FLICKER ON HOVER
-----------------------------------------------------------------------*/
-html {
-    filter: expression(document.execCommand("BackgroundImageCache", false, true));
-}
