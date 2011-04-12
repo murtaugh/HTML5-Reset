@@ -24,8 +24,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 
-/* responsive images and other embedded objects */
-/* note: keeping IMG here will cause problems if you're using foreground images as sprites, like, say for Google Maps custom placemarkers. */
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites, like, say for Google Maps custom placemarkers. 
+   There has been a report of problems with standard Google maps as well, but we haven't been able to duplicate or diagnose the issue. */
 img,
 object,
 embed {max-width: 100%;}
