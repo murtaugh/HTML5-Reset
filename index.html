@@ -37,7 +37,9 @@
 	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
 	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
 	-->
+	<!-- Uncomment to use Ñ use thoughtfully!
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	-->
 
 	<link rel="shortcut icon" href="_/img/favicon.ico">
 	<!-- This is the traditional favicon.
@@ -51,7 +53,7 @@
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
-	<!-- CSS : implied media="all" -->
+	<!-- CSS: screen, mobile & print are all in the same file -->
 	<link rel="stylesheet" href="_/css/style.css">
 	
 	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
@@ -114,23 +116,23 @@
 <!-- this is where we put our custom functions -->
 <script src="_/js/functions.js"></script>
 
-<!-- asynchronous google analytics
-	 NOTE: this is a variation of the official snippet: mathiasbynens.be/notes/async-analytics-snippet 
-	 change UA-XXXXX-X to your site's ID and uncomment
+<!-- Asynchronous google analytics; this is the official snippet.
+	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
+	 
 <script>
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-XXXXX-X']);
- _gaq.push(['_trackPageview']);
- (function() {
-  var ga = document.createElement('script');
-  ga.type = 'text/javascript';
-  ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(ga, s);
- })();
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
-</script> -->
+-->
   
 </body>
 </html>
