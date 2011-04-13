@@ -12,3 +12,4 @@ HTML5 Reset is a simple set of best practices to get web projects off on the rig
 6. Modernizr.js [http://www.modernizr.com/](http://www.modernizr.com/) enables HTML5 compatibility with IE (and a dozen other great features)
 7. IE-specific classes for simple CSS-targeting
 8. iPhone/iPad/iTouch icon snippets
+9. Lots of other keen stuff...
