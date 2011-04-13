@@ -122,7 +122,9 @@ button {width: auto; overflow: visible;}
 
 /* Ok, this is where the fun starts.
 -------------------------------------------------------------------------------*/
-body {font: 13px sans-serif;}
+
+/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */;}
+body {font: 13px Helmet, Freesans, sans-serif;}
 
 /* using local fonts? make sure to read up on Paul Irish's 
 	Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
