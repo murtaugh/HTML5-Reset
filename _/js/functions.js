@@ -1,5 +1,5 @@
 // remap jQuery to $
-(function($){})(window.jQuery);
+(function($){
 
 
 /* trigger when page is ready */
@@ -21,3 +21,6 @@ $(window).resize(function() {
 });
 
 */
+
+
+})(window.jQuery);
