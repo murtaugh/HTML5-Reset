@@ -24,6 +24,9 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 
 article, aside, figure, footer, header, hgroup, nav, section {display: block;}
 
+/* compensate for WhatWG's relatively low [hidden] specificity, as otherwise the line above will override this display */
+[hidden] { display: none !important; }
+
 /* Responsive images and other embedded objects
    Note: keeping IMG here will cause problems if you're using foreground images as sprites.
    If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
