@@ -111,7 +111,7 @@ button {width: auto; overflow: visible;}
 .ie7 img {-ms-interpolation-mode: bicubic;}
 
 /* prevent BG image flicker upon hover */
-.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+.ie6 img {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
 
 /* let's clear some floats */
 .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
