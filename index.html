@@ -38,7 +38,7 @@
 	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
 	-->
 	<!-- Uncomment to use; use thoughtfully!
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 	-->
 
 	<link rel="shortcut icon" href="_/img/favicon.ico" />
@@ -57,7 +57,14 @@
 	<link rel="stylesheet" href="_/css/style.css" />
 	
 	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
-	<script src="_/js/modernizr-1.7.min.js"></script>
+	<script src="_/js/modernizr-2.6.2.min.js"></script>
+	
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write("<script src='_/js/jquery-1.8.3.min.js'>\x3C/script>")</script>
+
+	<!-- this is where we put our custom functions -->
+	<script src="_/js/functions.js"></script>
 
 </head>
 
@@ -106,33 +113,6 @@
 	</footer>
 
 </div>
-
-<!-- here comes the javascript -->
-
-<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script>window.jQuery || document.write("<script src='_/js/jquery-1.5.1.min.js'>\x3C/script>")</script>
-
-<!-- this is where we put our custom functions -->
-<script src="_/js/functions.js"></script>
-
-<!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
-<script>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
--->
   
 </body>
 </html>
