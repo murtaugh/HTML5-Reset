@@ -1,5 +1,9 @@
 #  HTML5 Reset (http://html5reset.org)
 
+## March 20 Update
+
+I'm trying to commit some updates, but Git is fighting me. Hopefully they will be in by the end of the day.
+
 ## Summary:
 
 HTML5 Reset is a simple set of best practices to get web projects off on the right foot.
