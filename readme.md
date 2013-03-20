@@ -4,7 +4,7 @@
 
 1. Incorporated most of the pull requests.
 2. Went through and closed all issues.
-3. Broke styles out into two files - one for the rest styles, one for everything else.
+3. Broke styles out into two files — one for the reset styles, one for everything else.
 4. Added Windows 8, Twitter, and Facebook meta tags.
 5. Added the chromeframe element
 6. Added * {box-sizing: border-box;}
