@@ -47,7 +47,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* Media queries!
 -------------------------------------------------------------------------------*/
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 	
 		
 }
