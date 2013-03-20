@@ -8,6 +8,8 @@
 4. Added Windows 8, Twitter, and Facebook meta tags.
 5. Added the chromeframe element
 6. Added * {box-sizing: border-box;}
+7. Updated jQuery and Modernizer to latest
+8. Added reminders to concatenate JS and create a custom Modernizr build
 7. And more...
 
 ## Summary:
