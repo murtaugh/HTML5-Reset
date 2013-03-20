@@ -10,6 +10,7 @@
 6. Added * {box-sizing: border-box;}
 7. Updated jQuery and Modernizer to latest
 8. Added reminders to concatenate JS and create a custom Modernizr build
+9. Added Rogie's browser detection (commented out)
 7. And more...
 
 ## Summary:
