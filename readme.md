@@ -2,7 +2,13 @@
 
 ## March 20 Update
 
-I'm trying to commit some updates, but Git is fighting me. Hopefully they will be in by the end of the day.
+1. Incorporated most of the pull requests.
+2. Went through and closed all issues.
+3. Broke styles out into two files - one for the rest styles, one for everything else.
+4. Added Windows 8, Twitter, and Facebook meta tags.
+5. Added the chromeframe element
+6. Added * {box-sizing: border-box;}
+7. And more...
 
 ## Summary:
 
