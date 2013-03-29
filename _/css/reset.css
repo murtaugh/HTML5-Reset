@@ -21,6 +21,8 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	background: transparent;
 }									
 
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
 article, aside, figure, footer, header, hgroup, nav, section, details, summary {display: block;}
 
 /* Responsive images and other embedded objects
