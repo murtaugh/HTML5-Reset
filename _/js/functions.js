@@ -1,4 +1,4 @@
-// Browser detection for when you get desparate.
+// Browser detection for when you get desparate. A measure of last resort.
 // http://rog.ie/post/9089341529/html5boilerplatejs
 
 // var b = document.documentElement;
