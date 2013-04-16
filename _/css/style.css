@@ -1,5 +1,4 @@
-/* apply a natural box layout model to all elements */
-/* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .chromeframe {position: absolute; top: 0;}
@@ -7,19 +6,18 @@
 /* Ok, this is where the fun starts.
 -------------------------------------------------------------------------------*/
 
-/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
+/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {font: 13px Helmet, Freesans, sans-serif;}
 
-/* using local fonts? make sure to read up on Paul Irish's 
-	Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
+/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
 
-/* we like off-black for text */
+/* We like off-black for text. */
 body, select, input, textarea {color: #333;}
 
 a {color: #03f;}
 a:hover {color: #69f;}
 
-/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
 ::selection {background: #fcd700; color: #fff; text-shadow: none;} 
 
