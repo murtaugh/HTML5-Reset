@@ -104,7 +104,8 @@ button {cursor: pointer;}
 button, input, select, textarea {margin: 0;}
 
 /* make buttons play nice in IE */
-button {width: auto; overflow: visible;}
+button,
+input[type=button] {width: auto; overflow: visible;}
  
 /* scale images in IE7 more attractively */
 .ie7 img {-ms-interpolation-mode: bicubic;}
