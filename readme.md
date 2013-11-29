@@ -1,18 +1,5 @@
 #  HTML5 Reset (http://html5reset.org)
 
-## March 20 Update
-
-1. Incorporated most of the pull requests.
-2. Went through and closed all issues.
-3. Broke styles out into two files — one for the reset styles, one for everything else.
-4. Added Windows 8, Twitter, and Facebook meta tags.
-5. Added the chromeframe element
-6. Added * {box-sizing: border-box;}
-7. Updated jQuery and Modernizer to latest
-8. Added reminders to concatenate JS and create a custom Modernizr build
-9. Added Rogie's browser detection (commented out) (http://rog.ie/post/9089341529/html5boilerplatejs)
-7. And more...
-
 ## Summary:
 
 HTML5 Reset is a simple set of best practices to get web projects off on the right foot.
