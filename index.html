@@ -21,14 +21,15 @@
 	
 	<title></title>
 	
+	<!-- Google will often use this as its description of your page/site. Make it good. -->
 	<meta name="title" content="" />
 	<meta name="description" content="" />
 	<meta name="author" content="" />
-	<!-- Google will often use this as its description of your page/site. Make it good. -->
 	
-	<meta name="google-site-verification" content="" />
 	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
-
+	<meta name="google-site-verification" content="" />
+	
+	<!-- Put here the copyright holder of this page -->
 	<meta name="Copyright" content="" />
 	
 	<!--  Mobile Viewport Fix
@@ -47,11 +48,16 @@
 		 - size: 16x16 or 32x32
 		 - transparency is OK -->
 		 
-	<link rel="apple-touch-icon" href="_/img/apple-touch-icon.png" />
 	<!-- The is the icon for iOS's Web Clip and other things.
-		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for retina display (IMHO, just go ahead and use the biggest one)
+		See https://developer.apple.com/library/mac/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
+		for more details
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
-		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->	 
+	<link rel="apple-touch-icon" href="_/img/touch-icon-iphone.png" /><!-- Without size it's 60x60 -->
+	<link rel="apple-touch-icon" sizes="76x76" href="_/img/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="_/img/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="_/img/touch-icon-ipad-retina.png">
+	
 	
 	<!-- concatenate and minify for production -->
 	<link rel="stylesheet" href="_/css/reset.css" />
@@ -65,17 +71,17 @@
 	<script src="_/js/modernizr-2.7.0.dev.js"></script>
 	
 	<!-- Application-specific meta tags -->
-	<!-- Windows 8 -->
+	<!-- Windows 8 - see http://msdn.microsoft.com/en-us/library/ie/dn255024%28v=vs.85%29.aspx for details -->
 	<meta name="application-name" content="" /> 
 	<meta name="msapplication-TileColor" content="" /> 
 	<meta name="msapplication-TileImage" content="" />
-	<!-- Twitter -->
+	<!-- Twitter - see https://dev.twitter.com/docs/cards/types/summary-card for details -->
 	<meta name="twitter:card" content="">
 	<meta name="twitter:site" content="">
 	<meta name="twitter:title" content="">
 	<meta name="twitter:description" content="">
 	<meta name="twitter:url" content="">
-	<!-- Facebook -->
+	<!-- Facebook - see http://ogp.me/ for details -->
 	<meta property="og:title" content="" />
 	<meta property="og:description" content="" />
 	<meta property="og:url" content="" />
@@ -128,10 +134,6 @@
 	</footer>
 
 </div>
-
-<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
-		 http://chromium.org/developers/how-tos/chrome-frame-getting-started -->
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
