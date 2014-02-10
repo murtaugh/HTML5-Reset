@@ -1,11 +1,3 @@
-/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-.chromeframe {position: absolute; top: 0;}
-
-/* Ok, this is where the fun starts.
--------------------------------------------------------------------------------*/
-
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {font: 13px Helmet, Freesans, sans-serif;}
 
@@ -33,7 +25,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 
 
-/* Print styles!
+/* Print styles
 -------------------------------------------------------------------------------*/
 @media print {
 
@@ -42,7 +34,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 }
 
 
-/* Media queries!
+/* Media queries
 -------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
