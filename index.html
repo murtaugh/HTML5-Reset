@@ -38,18 +38,14 @@
 	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
 	-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Iconifier might be helpful for generating favicons and touch icons: http://iconifier.net -->
 	<link rel="shortcut icon" href="_/img/favicon.ico" />
 	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK -->
 		 
 	<link rel="apple-touch-icon" href="_/img/apple-touch-icon.png" />
-	<!-- The is the icon for iOS's Web Clip and other things.
-		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for retina display (IMHO, just go ahead and use the biggest one)
-		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
-		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+	<!-- avoid transparency -->
+	<!-- Iconifier is helpful for generating favicons and touch icons: http://iconifier.net -->
 	
 	<!-- concatenate and minify for production -->
 	<link rel="stylesheet" href="_/css/reset.css" />
