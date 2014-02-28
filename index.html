@@ -12,7 +12,7 @@
 <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. --> 
 
-<head id="www-sitename-com">
+<head>
 
 	<meta charset="utf-8">
 	
@@ -22,8 +22,8 @@
 	<title></title>
 	
 	<meta name="title" content="" />
-	<meta name="description" content="" />
 	<meta name="author" content="" />
+	<meta name="description" content="" />
 	<!-- Google will often use this as its description of your page/site. Make it good. -->
 	
 	<meta name="google-site-verification" content="" />
@@ -31,32 +31,28 @@
 
 	<meta name="Copyright" content="" />
 	
-	<!--  Mobile Viewport Fix
+	<!--  Mobile Viewport
 	http://j.mp/mobileviewport & http://davidbcalhoun.com/2010/viewport-metatag
 	device-width : Occupy full width of the screen in its current orientation
 	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
-	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
+	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width (wrong for most sites)
 	-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="_/img/favicon.ico" />
-	<!-- This is the traditional favicon.
-		 - size: 16x16 or 32x32
-		 - transparency is OK -->
-		 
-	<link rel="apple-touch-icon" href="_/img/apple-touch-icon.png" />
-	<!-- avoid transparency -->
-	<!-- Iconifier is helpful for generating favicons and touch icons: http://iconifier.net -->
+	
+	<!-- Iconifier is super helpful for generating favicons and touch icons: http://iconifier.net -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" /><!-- avoid transparency -->
 	
 	<!-- concatenate and minify for production -->
-	<link rel="stylesheet" href="_/css/reset.css" />
-	<link rel="stylesheet" href="_/css/style.css" />
+	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 	
-	<!-- Lea Verou's Prefix Free, lets you use only un-prefixed properties in yuor CSS files -->
-	<script src="_/js/prefixfree.min.js"></script>
+	<!-- Lea Verou's Prefix Free, lets you use un-prefixed properties in your CSS files -->
+	<script src="assets/js/libs/prefixfree.min.js"></script>
 	
 	<!-- This is an un-minified, complete version of Modernizr. 
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
-	<script src="_/js/modernizr-2.7.0.dev.js"></script>
+	<script src="assets/js/libs/modernizr-2.7.1.dev.js"></script>
 	
 	<!-- Application-specific meta tags -->
 	<!-- Windows 8 -->
@@ -69,7 +65,7 @@
 	<meta name="twitter:title" content="">
 	<meta name="twitter:description" content="">
 	<meta name="twitter:url" content="">
-	<!-- Facebook -->
+	<!-- Facebook (and some others) use the Open Graph protocol -->
 	<meta property="og:title" content="" />
 	<meta property="og:description" content="" />
 	<meta property="og:url" content="" />
@@ -123,17 +119,13 @@
 
 </div>
 
-<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
-		 http://chromium.org/developers/how-tos/chrome-frame-getting-started -->
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write("<script src='_/js/jquery-1.10.2.min.js'>\x3C/script>")</script>
+<script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.10.2.min.js'>\x3C/script>")</script>
 
 <!-- this is where we put our custom functions -->
 <!-- don't forget to concatenate and minify if needed -->
-<script src="_/js/functions.js"></script>
+<script src="assets/js/functions.js"></script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
 	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
