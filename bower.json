@@ -1,0 +1,24 @@
+{
+  "name": "HTML5-Reset",
+  "version": "2.1.1",
+  "homepage": "https://github.com/murtaugh/HTML5-Reset",
+  "authors": [
+    "Tim Murtaugh <tim@o2b.net>"
+  ],
+  "description": "A simple set of best practices to get HTML5 projects off on the right foot.",
+  "main": "index.html",
+  "keywords": [
+    "html5",
+    "reset",
+    "css",
+    "templates"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
