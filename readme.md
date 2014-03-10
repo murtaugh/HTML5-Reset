@@ -2,6 +2,14 @@
 
 HTML5 Reset is a simple set of best practices to get web projects off on the right foot.
 
+## Command-line installation:
+
+```
+bower install HTML5-Reset
+```
+
+## Some of the features:
+
 1. A style sheet designed to strip initial styles from browsers, starting your development off with a blank slate.
 2. Easy to customize — remove whatever you don't need, keep what you do.
 3. Google Analytics and jQuery calls
@@ -13,3 +21,5 @@ HTML5 Reset is a simple set of best practices to get web projects off on the rig
 9. Google's Chrome Frame prompt for IE6 users
 10. iPhone/iPad/iTouch icon snippets, plus social/app meta tags for Twitter, Facebook, Windows 8
 11. Lots of other keen stuff
+
+## Get the WordPress theme: https://github.com/murtaugh/HTML5-Reset-WordPress-Theme
