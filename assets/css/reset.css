@@ -74,10 +74,9 @@ hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 
 
 select, input, textarea {font: 99% sans-serif;}
 input, select {vertical-align: middle;}
-input[type="radio"] {vertical-align: text-bottom;}
+input[type="radio"], .ie6 input {vertical-align: text-bottom;}
 input[type="checkbox"] {vertical-align: bottom;}
 .ie7 input[type="checkbox"] {vertical-align: baseline;}
-.ie6 input {vertical-align: text-bottom;}
 
 /* Webkit browsers add a 2px margin outside the chrome of form elements */
 button, input, select, textarea {margin: 0;}
