@@ -8,6 +8,13 @@ HTML5 Reset is a simple set of best practices to get web projects off on the rig
 bower install HTML5-Reset
 ```
 
+## Grunt Setup:
+
+- If you don't already have Grunt then you'll need to install it `npm install -g grunt-cli`
+- run `npm install` in the project directory
+- Once it's setup you can run it with `grunt`
+- While actively developing use `grunt watch` to have it autocompile on save
+
 ## Some of the features:
 
 1. A style sheet designed to strip initial styles from browsers, starting your development off with a blank slate.
