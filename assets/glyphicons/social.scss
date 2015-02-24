@@ -1,0 +1,95 @@
+//
+// Glyphicons
+//
+// Since icons are fonts, they can be placed anywhere text is placed and are
+// thus automatically sized to match the surrounding child. To use, create an
+// inline element with the appropriate classes, like so:
+//
+// <a href="#"><i class="social leaf"></i> Leaf</a>
+
+// Import the fonts
+@font-face {
+  font-family: 'Glyphicons Social';
+  src: url('fonts/glyphicons-social-regular.eot');
+  src: url('fonts/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/glyphicons-social-regular.woff2') format('woff2'),
+       url('fonts/glyphicons-social-regular.woff') format('woff'),
+       url('fonts/glyphicons-social-regular.ttf') format('truetype'),
+       url('fonts/glyphicons-social-regular.svg#glyphicons_socialregular') format('svg');
+}
+
+// Catchall baseclass
+i.social {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Social';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align:top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Individual icons
+i.social.pinterest{ &:before{ content:"\E001";} }
+i.social.dropbox{ &:before{ content:"\E002";} }
+i.social.google-plus{ &:before{ content:"\E003";} }
+i.social.jolicloud{ &:before{ content:"\E004";} }
+i.social.yahoo{ &:before{ content:"\E005";} }
+i.social.blogger{ &:before{ content:"\E006";} }
+i.social.picasa{ &:before{ content:"\E007";} }
+i.social.amazon{ &:before{ content:"\E008";} }
+i.social.tumblr{ &:before{ content:"\E009";} }
+i.social.wordpress{ &:before{ content:"\E010";} }
+i.social.instapaper{ &:before{ content:"\E011";} }
+i.social.evernote{ &:before{ content:"\E012";} }
+i.social.xing{ &:before{ content:"\E013";} }
+i.social.zootool{ &:before{ content:"\E014";} }
+i.social.dribbble{ &:before{ content:"\E015";} }
+i.social.deviantart{ &:before{ content:"\E016";} }
+i.social.read-it-later{ &:before{ content:"\E017";} }
+i.social.linked-in{ &:before{ content:"\E018";} }
+i.social.forrst{ &:before{ content:"\E019";} }
+i.social.pinboard{ &:before{ content:"\E020";} }
+i.social.behance{ &:before{ content:"\E021";} }
+i.social.github{ &:before{ content:"\E022";} }
+i.social.youtube{ &:before{ content:"\E023";} }
+i.social.skitch{ &:before{ content:"\E024";} }
+i.social.foursquare{ &:before{ content:"\E025";} }
+i.social.quora{ &:before{ content:"\E026";} }
+i.social.badoo{ &:before{ content:"\E027";} }
+i.social.spotify{ &:before{ content:"\E028";} }
+i.social.stumbleupon{ &:before{ content:"\E029";} }
+i.social.readability{ &:before{ content:"\E030";} }
+i.social.facebook{ &:before{ content:"\E031";} }
+i.social.twitter{ &:before{ content:"\E032";} }
+i.social.instagram{ &:before{ content:"\E033";} }
+i.social.posterous-spaces{ &:before{ content:"\E034";} }
+i.social.vimeo{ &:before{ content:"\E035";} }
+i.social.flickr{ &:before{ content:"\E036";} }
+i.social.last-fm{ &:before{ content:"\E037";} }
+i.social.rss{ &:before{ content:"\E038";} }
+i.social.skype{ &:before{ content:"\E039";} }
+i.social.e-mail{ &:before{ content:"\E040";} }
+i.social.vine{ &:before{ content:"\E041";} }
+i.social.myspace{ &:before{ content:"\E042";} }
+i.social.goodreads{ &:before{ content:"\E043";} }
+i.social.apple{ &:before{ content:"\F8FF";} }
+i.social.windows{ &:before{ content:"\E045";} }
+i.social.yelp{ &:before{ content:"\E046";} }
+i.social.playstation{ &:before{ content:"\E047";} }
+i.social.xbox{ &:before{ content:"\E048";} }
+i.social.android{ &:before{ content:"\E049";} }
+i.social.ios{ &:before{ content:"\E050";} }
+i.social.wikipedia{ &:before{ content:"\E051";} }
+i.social.pocket{ &:before{ content:"\E052";} }
+i.social.steam{ &:before{ content:"\E053";} }
+i.social.souncloud{ &:before{ content:"\E054";} }
+i.social.slideshare{ &:before{ content:"\E055";} }
+i.social.netflix{ &:before{ content:"\E056";} }
+i.social.paypal{ &:before{ content:"\E057";} }
+i.social.google-drive{ &:before{ content:"\E058";} }
+i.social.linux-foundation{ &:before{ content:"\E059";} }
+i.social.ebay{ &:before{ content:"\E060";} }
