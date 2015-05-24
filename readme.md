@@ -1,12 +1,6 @@
 # HTML5 Reset
 
-HTML5 Reset is a simple set of best practices to get web projects off on the right foot.
-
-## Command-line installation:
-
-```
-bower install HTML5-Reset
-```
+HTML5 Reset is a simple set of best practices to get web projects off on the right foot. This is a highly customized version by @CWSites that fits his workflow.
 
 ## Grunt Setup:
 
@@ -15,7 +9,13 @@ bower install HTML5-Reset
 - Once it's setup you can run it with `grunt`
 - While actively developing use `grunt watch` to have it autocompile on save
 
-## Some of the features:
+## Custom Features:
+
+- Glyphicons library, you must have a license to use this
+- Sass
+- Grunt has been added to compile Sass on the fly
+
+## Default Features:
 
 1. A style sheet designed to strip initial styles from browsers, starting your development off with a blank slate.
 2. Easy to customize — remove whatever you don't need, keep what you do.
