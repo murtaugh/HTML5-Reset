@@ -7,27 +7,10 @@
 // b.setAttribute('data-platform', navigator.platform);
 
 
-// remap jQuery to $
-(function($){
+function initPage(){
 
-	/* trigger when page is ready */
-	$(document).ready(function (){
-	
-		// your functions go here
-	
-	});
-	
-	
-	/* optional triggers
-	
-	$(window).load(function() {
-		
-	});
-	
-	$(window).resize(function() {
-		
-	});
-	
-	*/
+	// your functions go here
 
-})(window.jQuery);
+	console.log('page loaded');
+
+};
