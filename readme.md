@@ -17,10 +17,9 @@ bower install HTML5-Reset
 5. Empty print and small-screen media queries
 6. Modernizr.js [http://www.modernizr.com/](http://www.modernizr.com/) enables HTML5 compatibility with IE (and a dozen other great features)
 7. [Prefix-free.js](http://leaverou.github.io/prefixfree/) allowing us to only use un-prefixed styles in our CSS
-8. IE-specific classes for simple CSS-targeting
-9. Google's Chrome Frame prompt for IE6 users
-10. iPhone/iPad/iTouch icon snippets, plus social/app meta tags for Twitter, Facebook, Windows 8
-11. Lots of other keen stuff
+8. IE-specific classes for simple CSS targeting (if that's your thing)
+9. iPhone/iPad/iTouch icon snippets, plus social/app meta tags for Twitter, Facebook
+10. Lots of other keen details
 
 ## Get the WordPress theme:
 
