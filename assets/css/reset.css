@@ -38,15 +38,15 @@ html {
 
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
 
-/* Responsive images and other embedded objects
-*/
+/* Responsive images and other embedded objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
 img,
 object,
 embed {max-width: 100%;}
 
 /*
    Note: keeping IMG here will cause problems if you're using foreground images as sprites.
-	 In fact, it *will* cause problems with Google Maps' controls at small size.
+	In fact, it *will* cause problems with Google Maps' controls at small size.
 	If this is the case for you, try uncommenting the following:
 
 #map img {
@@ -58,7 +58,8 @@ embed {max-width: 100%;}
 html {overflow-y: scroll;}
 
 /* we use a lot of ULs that aren't bulleted.
-	don't forget to restore the bullets within content. */
+	you'll have to restore the bullets within content,
+	which is fine because they're probably customized anyway */
 ul {list-style: none;}
 
 blockquote, q {quotes: none;}
