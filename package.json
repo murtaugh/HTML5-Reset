@@ -1,0 +1,22 @@
+{
+  "name": "HTML5-Reset",
+  "version": "2.1.3",
+  "homepage": "https://github.com/wbinnssmith/HTML5-Reset",
+  "bugs": {
+    "url": "https://github.com/wbinnssmith/HTML5-Reset/issues"
+  },
+  "author": "Tim Murtaugh <tim@o2b.net>",
+  "description": "A simple set of best practices to get HTML5 projects off on the right foot.",
+  "style": "assets/css/reset.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbinnssmith/HTML5-Reset.git"
+  },
+  "keywords": [
+    "html5",
+    "reset",
+    "css",
+    "templates"
+  ],
+  "license": "MIT"
+}
