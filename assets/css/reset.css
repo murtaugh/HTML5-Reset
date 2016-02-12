@@ -76,7 +76,7 @@ del {text-decoration: line-through;}
 abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
 
 /* tables still need cellspacing="0" in the markup */
-table {border-collapse: collapse; border-spacing: 0;}
+table {border-collapse: separate; border-spacing: 0;}
 th {font-weight: bold; vertical-align: bottom;}
 td {font-weight: normal; vertical-align: top;}
 
