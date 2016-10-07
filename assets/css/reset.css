@@ -22,7 +22,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 	background: transparent;
 }
 
-article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
 
 /* Handle box-sizing while better addressing child elements:
    http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
