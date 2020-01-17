@@ -6,6 +6,7 @@ HTML5 Reset is a simple set of best practices to get web projects off on the rig
 
 ```
 bower install HTML5-Reset
+its all that i am learning to pull request that y i am modifying 
 ```
 
 ## Some of the features:
