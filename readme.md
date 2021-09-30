@@ -21,6 +21,6 @@ bower install HTML5-Reset
 9. iPhone/iPad/iTouch icon snippets, plus social/app meta tags for Twitter, Facebook
 10. Lots of other keen details
 
-## Get the WordPress theme:
+## Get the WordPress theme: Dark
 
 https://github.com/murtaugh/HTML5-Reset-WordPress-Theme
