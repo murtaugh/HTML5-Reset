@@ -12,7 +12,7 @@ HTML5 Reset is a simple set of best practices to get web projects off on the rig
 
 ## A note on font-sizing
 
-We prefer `rem` for the simplicity; you will need to swap rems for `em` in the CSS if that's your style.
+We prefer `rem` for the simplicity; you will need to swap in `em` in `styles.css` if that's your style.
 
 ## Command-line installation:
 
