@@ -67,29 +67,15 @@ a:hover {color: #69f;}
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
 
-/* Mozilla dosen't style placeholders by default */
+/* Mozilla doesn't style placeholders by default */
 input:-moz-placeholder { color:#a9a9a9; }
 textarea:-moz-placeholder { color:#a9a9a9; }
 
 /* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
 blockquote {padding: 16px; background: #eee;}
 
-
-
-/* Media queries
--------------------------------------------------------------------------------*/
-
 @media screen and (max-width: 480px) {
-
-
 }
 
-
-
-/* Print styles
--------------------------------------------------------------------------------*/
 @media print {
-
-
-
 }
