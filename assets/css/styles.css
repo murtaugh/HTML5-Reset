@@ -44,28 +44,22 @@ sub {bottom: -0.25rem;}
 
 pre, code, kbd, samp {font-family: monospace, sans-serif;}
 
-.clickable, label, input[type=button], input[type=submit], input[type=file], button {cursor: pointer;}
+label, input[type=button], input[type=submit], input[type=file], button {cursor: pointer;}
 
 button, input, select, textarea {margin: 0;}
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.clearfix:after {content: ""; display: table; clear: both;}
+
+/* ———— END THE STANDARD RESET STYLES ———— */
+
+
+
+/* System font stack (https://css-tricks.com/snippets/css/system-font-stack) */
+:root {
+ 	--system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* END THE RESET BLOCK */
-
-
-
-
-/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
-body {font: 13px Helmet, Freesans, sans-serif;}
-
-/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
-
-/* We like off-black for text. */
-body, select, input, textarea {color: #333;}
+body {font-family: var(--system-ui); color: #333;}
 
 a {color: #03f;}
 a:hover {color: #69f;}
