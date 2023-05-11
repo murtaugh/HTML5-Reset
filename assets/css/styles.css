@@ -48,33 +48,32 @@ label, input[type=button], input[type=submit], input[type=file], button {cursor:
 
 button, input, select, textarea {margin: 0;}
 
-.clearfix:after {content: ""; display: table; clear: both;}
-
-/* ———— END THE STANDARD RESET STYLES ———— */
-
-
-
-/* System font stack (https://css-tricks.com/snippets/css/system-font-stack) */
-:root {
-	--system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	--featured-color: #03f;
-	--featured-color-hover: #69f;
-	--highlight-color: #fcd700;
-	
-}
-
-body {font-family: var(--system-ui); color: #333;}
-
-a {color: var(--featured-color);}
-a:hover {color: var(--featured-color-hover);}
-
 ins {background-color: var(--highlight-color); color: #000; text-decoration: none;}
 mark {background-color: var(--highlight-color); color: #000; font-style: italic; font-weight: bold;}
 
 blockquote {padding: 2rem; border-left: 1px solid #333;}
 
+.clearfix:after {content: ""; display: table; clear: both;} /* https://css-tricks.com/snippets/css/clear-fix/ */
+
+/* ———— END THE GENERIC RESETS ———— */
+
+:root {
+	--font-system: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* https://css-tricks.com/snippets/css/system-font-stack */
+	--text-color: #333;
+	--featured-color: #03f;
+	--featured-color-hover: #69f;
+	--highlight-color: #fcd700;
+}
+
+body {font-size: 16px; font-family: var(--font-system); color: var(--text-color);}
+
+a {color: var(--featured-color);}
+a:hover {color: var(--featured-color-hover);}
+
 @media screen and (max-width: 480px) {
+	
 }
 
 @media print {
+	
 }
