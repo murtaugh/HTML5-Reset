@@ -56,23 +56,22 @@ button, input, select, textarea {margin: 0;}
 
 /* System font stack (https://css-tricks.com/snippets/css/system-font-stack) */
 :root {
- 	--system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--featured-color: #03f;
+	--featured-color-hover: #69f;
+	--highlight-color: #fcd700;
+	
 }
 
 body {font-family: var(--system-ui); color: #333;}
 
-a {color: #03f;}
-a:hover {color: #69f;}
+a {color: var(--featured-color);}
+a:hover {color: var(--featured-color-hover);}
 
-ins {background-color: #fcd700; color: #000; text-decoration: none;}
-mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+ins {background-color: var(--highlight-color); color: #000; text-decoration: none;}
+mark {background-color: var(--highlight-color); color: #000; font-style: italic; font-weight: bold;}
 
-/* Mozilla doesn't style placeholders by default */
-input:-moz-placeholder { color:#a9a9a9; }
-textarea:-moz-placeholder { color:#a9a9a9; }
-
-/* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
-blockquote {padding: 16px; background: #eee;}
+blockquote {padding: 2rem; border-left: 1px solid #333;}
 
 @media screen and (max-width: 480px) {
 }
