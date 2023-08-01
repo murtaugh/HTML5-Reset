@@ -60,6 +60,29 @@
 			<h2>Article Subhead</h2>
 	
 			<p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
+
+			<form>
+				<fieldset>
+
+					<legend>Personal Info</legend>
+					
+					<label for="name">Full Name:</label>
+					<span class="help-text" id="input-name-help">Single word names are supported.</span>
+					<input type="text" id="name" name="name" aria-describedby="input-name-help">
+					
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+
+				</fieldset>
+				
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+
+				<input type="checkbox" id="terms" required="required" />
+				<label for="terms">I have read and accept the <a href="#" target="_blank">terms and conditions</a>.</label>
+				
+				<input type="submit" value="Submit">
+			</form>
 	
 		</article>
 	
@@ -70,14 +93,6 @@
 			<p>Vestibulum lacus erat, volutpat vel dignissim at, fringilla ut felis.</p>
 	
 		</aside>
-
-		<form>
-			<label for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname">
-			<input type="password" id="password" name="password" >
-		</form>
 	
 	</main>
 
