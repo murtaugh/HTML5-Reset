@@ -1,79 +1,205 @@
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {margin: 0; padding: 0; border: 0; font-size: 100%; font-weight: normal; vertical-align: baseline; background: transparent;}
+/* Generic Resets for Common Elements */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
 
-main, article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+/* Block Elements Display Property */
+main, article, aside, figure, footer, header, nav, section, details, summary {
+    display: block;
+}
 
-html {box-sizing: border-box;}
+/* Box Sizing for HTML Element */
+html {
+    box-sizing: border-box;
+}
 
-*, *:before, *:after {box-sizing: inherit;}
+/* Box Sizing Inheritance for All Elements */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
-img {max-width: 100%;}
+/* Responsive Image */
+img {
+    max-width: 100%;
+}
 
-ul {list-style: none;} /* we'll restore bullets as needed for content */
+/* List Styles Removal */
+ul {
+    list-style: none;
+}
 
-blockquote, q {quotes: none;}
+/* Remove Quotes */
+blockquote, q {
+    quotes: none;
+}
 
-blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+/* Additional Styling for Quotes */
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
 
-a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+/* Link Styling */
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 
-del {text-decoration: line-through;}
+/* Strikethrough Text Decoration for Deleted Content */
+del {
+    text-decoration: line-through;
+}
 
-abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+/* Dotted Border for Abbreviations and Definitions */
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
 
-table {border-collapse: separate; border-spacing: 0; text-align: left;}
-th {font-weight: bold; vertical-align: bottom;}
-td {font-weight: normal; vertical-align: top;}
-td img {vertical-align: top;}
+/* Table Styles */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+}
+th {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+td {
+    font-weight: normal;
+    vertical-align: top;
+}
+td img {
+    vertical-align: top;
+}
 
-hr {display: block; height: 1px; border: 0; border-top: 1px solid #999; margin: 1rem 0; padding: 0;}
+/* Horizontal Rule Styles */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #999;
+    margin: 1rem 0;
+    padding: 0;
+}
 
-input, select {vertical-align: middle;}
+/* Vertical Alignment for Form Elements */
+input, select {
+    vertical-align: middle;
+}
 
-pre {white-space: pre-line;}
+/* Preserve Whitespace in Preformatted Text */
+pre {
+    white-space: pre-line;
+}
 
-input[type="radio"] {vertical-align: text-bottom;}
-input[type="checkbox"] {vertical-align: bottom;}
+/* Vertical Alignment for Radio and Checkbox Inputs */
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
 
-small {font-size: .8rem;}
+/* Font Size Adjustment for Small Text */
+small {
+    font-size: .8rem;
+}
 
-strong {font-weight: bold;}
+/* Bold Text */
+strong {
+    font-weight: bold;
+}
 
-sub, sup {font-size: .8rem; line-height: 0; position: relative;}
-sup {top: -0.5rem;}
-sub {bottom: -0.25rem;}
+/* Superscript and Subscript Styling */
+sub, sup {
+    font-size: .8rem;
+    line-height: 0;
+    position: relative;
+}
+sup {
+    top: -0.5rem;
+}
+sub {
+    bottom: -0.25rem;
+}
 
-pre, code, kbd, samp {font-family: monospace, sans-serif;}
+/* Monospace Font Family for Code */
+pre, code, kbd, samp {
+    font-family: monospace, sans-serif;
+}
 
-label, input[type=button], input[type=submit], input[type=file], button {cursor: pointer;}
+/* Cursor Style for Buttons and Form Elements */
+label, input[type=button], input[type=submit], input[type=file], button {
+    cursor: pointer;
+}
 
-button, input, select, textarea {margin: 0;}
+/* Styling for Inserted and Marked Text */
+ins {
+    background-color: var(--highlight-color);
+    color: #000;
+    text-decoration: none;
+}
+mark {
+    background-color: var(--highlight-color);
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
 
-ins {background-color: var(--highlight-color); color: #000; text-decoration: none;}
-mark {background-color: var(--highlight-color); color: #000; font-style: italic; font-weight: bold;}
+/* Blockquote Styles */
+blockquote {
+    padding: 2rem;
+    border-left: 1px solid #333;
+}
 
-blockquote {padding: 2rem; border-left: 1px solid #333;}
+/* Clearfix for Floats */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-.clearfix:after {content: ""; display: table; clear: both;} /* https://css-tricks.com/snippets/css/clear-fix/ */
-
-/* ———— END THE GENERIC RESETS ———— */
-
+/* Root Variables for Color Scheme */
 :root {
-	--font-system: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; /* https://css-tricks.com/snippets/css/system-font-stack */
-	--text-color: #333;
-	--featured-color: #03f;
-	--featured-color-hover: #69f;
-	--highlight-color: #fcd700;
+    --font-system: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --text-color: #333;
+    --featured-color: #03f;
+    --featured-color-hover: #69f;
+    --highlight-color: #fcd700;
 }
 
-body {font-size: 16px; font-family: var(--font-system); color: var(--text-color);}
+/* Body Styles */
+body {
+    font-size: 16px;
+    font-family: var(--font-system);
+    color: var(--text-color);
+}
 
-a {color: var(--featured-color);}
-a:hover {color: var(--featured-color-hover);}
+/* Link Color and Hover Color */
+a {
+    color: var(--featured-color);
+}
+a:hover {
+    color: var(--featured-color-hover);
+}
 
+/* Media Query for Small Screens */
 @media screen and (max-width: 480px) {
-	
+    /* Styles for small screens go here */
 }
 
+/* Media Query for Print Styles */
 @media print {
-	
+    /* Styles for print go here */
 }
