@@ -55,6 +55,16 @@ blockquote {padding: 2rem; border-left: 1px solid #333;}
 
 .clearfix:after {content: ""; display: table; clear: both;} /* https://css-tricks.com/snippets/css/clear-fix/ */
 
+h1, h2, h3, h4, h5, h6 {text-wrap: balance}
+
+p {text-wrap: pretty;}
+
+@media (prefers-reduced-motion: no-preference) {
+	:has(:target) {
+		scroll-behavior: smooth;
+	}
+}
+
 /* ———— END THE GENERIC RESETS ———— */
 
 :root {
